@@ -1,0 +1,53 @@
+
+body, html {
+    height: 100%;
+    background-color: black;
+  }
+  
+  h1{
+    font-family: Helvetica, sans-serif;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    text-transform: uppercase;    
+    letter-spacing: 8px;
+    line-height: 1.8;
+    text-shadow: 0 0 5px #000000;
+  }
+
+  h2{
+    font-family: Helvetica, sans-serif;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    text-transform: uppercase;    
+    letter-spacing: 8px;
+
+    line-height: 3;
+ 
+  }
+  .parallax {
+    
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+.end{
+    height:100%;
+    background-color:black;
+
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
